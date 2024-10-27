@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil-container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    display:inline;
+}
+
+.perfil-box {
+    background-color: #acdab0;
+    padding: 20px; /* Reducido */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    margin-top: 1%;
+    max-width: 350px; /* Reducido */
+}
+
+.perfil-info {
+}
+
+.perfil-card {
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 8px; /* Reducido */
+    width: 100%;
+}
+
+.perfil-card-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2em; /* Reducido */
+}
+
+.perfil-card-text {
+    font-size: 12px; /* Reducido */
+    color: #666;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #000000;
+    font-size: 1.3em; /* Reducido */
+}
+
+button {
+    width: 100%;
+    font-size: 0.9em; /* Reducido */
+    padding: 6px; /* Reducido */
+}
+
+.button-group {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.button-group .btn {
+    width: 48%;
+}
+
+.btn-custom {
+    background-color: #4CAF50; /* Color personalizado */
+    color: white; /* Color del texto */
+    border: none; /* Remueve el borde si lo deseas */
+  }
+  
+  .btn-custom:hover {
+    background-color: #239021; /* Color al pasar el cursor */
+    color: rgb(255, 255, 255);
+  }

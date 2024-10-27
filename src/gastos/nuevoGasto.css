@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.nuevoGasto-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.nuevoGasto-box {
+  background-color: #acdab0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+.nuevoGasto-form {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.nuevoGasto-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+}
+
+.nuevoGasto-button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+h1 {
+  color: #000000;
+  font-size: 30px;
+}
+
+.saldo-actual {
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  left: 5%;
+  top:16%;
+  bottom: 0%;
+}

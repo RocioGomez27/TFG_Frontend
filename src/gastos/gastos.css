@@ -1,0 +1,117 @@
+.gastos {
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-gasto-button {
+  font-size: 25px;
+  padding: 12px;
+  line-height: 1;
+  width: 60px;
+}
+
+.gastos-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 4%;
+}
+
+.gastos-list {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.gasto {
+  background-color: #acdab0;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gasto-details {
+  text-align: center;
+  flex: 1;
+}
+
+.grafica {
+  flex: 0 0 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.delete-gasto-button,
+.edit-gasto-button {
+  color: #6c757d;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 40px;
+  margin-top: 10%;
+}
+
+.delete-gasto-button:hover {
+  color: #dc3545;
+}
+
+.edit-gasto-button:hover {
+  color: #007bff;
+}
+
+.gasto-edit-form input,
+.gasto-edit-form select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%; /* Para que los inputs ocupen el 100% del espacio disponible */
+}
+
+.gasto-edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.gasto-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.gasto-buttons .save-button,
+.gasto-buttons .cancel-button {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.save-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.cancel-button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,47 @@
+/* navbar.css */
+
+body {
+    margin: 0;
+    padding-top: 60px; /* Altura del navbar para evitar que tape el contenido */
+    font-family: Arial, sans-serif;
+}
+
+.navbar-personalizado {
+    background-color: #a4d4ae;
+    width: 100%;
+}
+
+.navbar-link, .navbar-perfil {
+    color: #000000;
+    font-size:medium;
+    font-weight: bold;
+}
+
+.navbar-link:hover, .navbar-perfil:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar-text {
+    color: #000000;
+    font-weight: bold;
+}
+
+.brand-text {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.nav-info-icon {
+    padding: 0; /* Eliminar padding para evitar que el botón sea más grande de lo necesario */
+    line-height: 1; /* Ajustar la altura de línea */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-info-icon svg {
+    width: 16px; /* Asegúrate de que el icono mantenga un tamaño pequeño */
+    height: 16px;
+}

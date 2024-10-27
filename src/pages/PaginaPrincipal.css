@@ -1,0 +1,87 @@
+/* PaginaPrincipal.css */
+
+body, html {
+  height: 100%;
+  overflow: auto;
+  display:grid;
+}
+
+.navbar-per {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.pagina-principal {
+  
+
+}
+
+.cuenta-select {
+  margin-bottom: 20px;
+}
+
+.detalle {
+  width: 70%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+  border-radius: 10px; /* Esquinas curvadas */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 15%;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.boton-toggle {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-toggle:hover {
+  background-color: #a9a7a7;
+}
+
+.boton-toggle.activo {
+  background-color: #4CAF50; /* Color verde para el botón activo */
+  color: white;
+}
+
+.sin-cuentas {
+  text-align: center;
+}
+
+.sin-cuentas p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sin-cuentas button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sin-cuentas button:hover {
+  background-color: #45a049;
+}
+
+.clarito {
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+}
